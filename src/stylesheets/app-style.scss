@@ -1,0 +1,263 @@
+.navbar-form input, .form-inline input {
+  width: auto;
+}
+
+body {
+  padding-top: 50px;
+}
+.background {
+  background-color: #f2f4f3;
+}
+.title-engli{
+  cursor: pointer
+}
+footer {
+  margin-top: 40px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-color: #e3cecf;
+}
+
+#masthead {
+  min-height: 199px;
+
+  h1 {
+    font-size: 55px;
+    line-height: 1;
+    margin-top: 50px;
+  }
+
+  .well {
+    margin-top: 31px;
+    min-height: 127px;
+  }
+
+}
+
+.navbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.story-img {
+  margin-top: 25%;
+  display: block;
+}
+
+a, a:hover {
+  color: #2b64a0;
+  text-decoration: none;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 80px;
+  }
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.panel {
+  border-color: transparent;
+  border-radius: 0;
+}
+
+.thumbnail {
+  margin-bottom: 8px;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 170px;
+}
+
+.img-container img {
+  min-width: 280px;
+  min-height: 180px;
+  max-width: 380px;
+  max-height: 280px;
+}
+
+.txt-container {
+  overflow: hidden;
+  height: 100px;
+}
+
+.panel .lead {
+  overflow: hidden;
+  height: 90px;
+}
+
+.label-float {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: .9;
+  padding: 6px;
+  color: #fff;
+}
+
+.btn-twitter {
+  background-color: #4099FF;
+  color: #fff;
+}
+
+.btn-facebook {
+  background-color: #3B5998;
+  color: #fff;
+}
+
+.btn-google-plus {
+  background-color: #d34836;
+  color: #fff;
+}
+
+.btn-twitter:hover {
+  background-color: #3088FF;
+  color: #62BBFF;
+}
+
+.btn-facebook:hover {
+  background-color: #2A4998;
+  color: #4C6BBA;
+}
+
+.btn-google-plus:hover {
+  background-color: #C23836;
+  color: #E45A58;
+}
+
+.show-examples {
+  height: 53px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.right {
+  float: right;
+}
+
+.notyfication-text {
+
+}
+
+//MSG
+
+button {
+  cursor: pointer;
+}
+
+#popUpMsg-bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+#popUpMsg {
+  top: 30%;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  padding: 10px 5px;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  box-shadow: 0 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#popUpMsg .close {
+  background: black;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  top: -6px;
+  right: -7px;
+}
+
+#popUpMsg .content {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.navbar-default {
+  z-index: 1 !important;
+  background-color: #e3cecf !important;
+  box-shadow: 0px 6px 7px -6px rgba(0,0,0,0.45);
+
+}
+
+.btn-facebook:hover {
+  color: #fff !important;
+}
+
+.btn-google:hover {
+  color: #fff !important;
+}
+
+.search {
+  position: fixed;
+  margin: -229px 0px 0 1111px;
+  width: 220px !important;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.bg {
+  background: url("../../images/Double-Decker-English-Bus-1920x1200.jpg");
+  //background-position: center;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 600px;
+  position: relative;
+  -webkit-box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+  -moz-box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+  box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+  .mail-text {
+    opacity: 0.9;
+    background-color: #e0e1e3;
+    border-radius: 16px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+    -moz-box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+    box-shadow: 6px 13px 22px 0px rgba(0,0,0,0.88);
+    .welcome{
+      font-size: 51px;
+      color: #bd0b0f;
+      font-family: 'Handlee', cursive;
+      text-shadow: -2px 0px 7px black;
+    }
+    .welcome-title{
+      font-family: 'Patrick Hand', cursive;
+    }
+    .btn-welcome{
+
+    }
+  }
+
+}
+

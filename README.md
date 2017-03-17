@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# react-router-course-ru
+Код для раздела [Настраиваем DEV-окружение](https://maxfarseer.gitbooks.io/react-router-course-ru/content/nastraivaem_dev-okruzhenie.html)
